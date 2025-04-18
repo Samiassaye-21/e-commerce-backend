@@ -1,5 +1,5 @@
 const pool = require('../db');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 const SECRET = 'your_secret_key'; // Put this in .env for production
